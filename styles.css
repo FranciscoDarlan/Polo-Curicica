@@ -1,0 +1,181 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0c0909;
+}
+
+.class-tela-full-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo-image {
+    width: 10%;
+    display: inline-block;
+}
+
+.class-links {
+    width: 89%;
+    display: inline-block;
+    position: absolute;
+    padding: 2%;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 180%;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 4%;
+}
+.link-header:hover {
+    opacity: .5;
+}
+.link-header:active {
+    opacity: .8;
+}
+
+.button-header {
+    background: #665AE1;
+    border-radius: 160.5px;
+    width: 113px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.button-header:hover {
+    opacity: .5;
+}
+.button-header:active {
+    opacity: .8;
+}
+
+.matriculas-image {
+    width: 53%;
+    margin-top: 20px;
+}
+
+ main {
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    font-size: 180%;
+    color: #515151;
+}
+
+h2 {
+    font-size: 180%;
+    color: #515151;
+}
+
+p {
+    font-size: 150%;
+    font-weight: 100px;
+    color: #848484;
+    text-align: center;
+}
+#ol-font-size {
+    color: #848484;
+ }
+ li {
+    color: #d9760c;
+ }
+
+ .button-cursos {
+    background-color: #201e2f;
+    cursor: grab;
+    border-radius: 100000px;
+    width: 271px;
+    height: 41px;
+    color: #FFFFFF;
+    border: none;   
+    font-size: 15px;
+    line-height: 16px;
+ }
+ .button-cursos:hover {
+    opacity: .5;
+}
+.button-cursos:active {
+    opacity: .8;
+}
+
+ footer {
+    background-color: black;
+    margin-top: 5%;
+ }
+
+ footer{
+    width: 100%;
+    color: white;
+}
+
+@media screen and (max-width: 900px){
+
+    #logo-image {
+        margin: 10px 0 0 20px;
+        width: 90%;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        display: none;
+    }
+
+    main {
+        text-align: left;
+        width: 100%;
+    }
+
+    .matriculas-image {
+        margin: 40px 0 0 20px;
+        width: 90%;
+    }
+
+    h1 {
+        padding: 10% 0%;
+        font-size: 180%;
+        color: red;
+    }
+
+    h2 {
+        padding: 10% 0%;
+        font-size: 180%;
+        color: red;
+    }
+
+    p {
+        font-size: 150%;
+        font-weight: 92px;
+        color: #848484;
+        text-align: left;
+    }
+
+    li {
+        font-size: 20px;
+    }
+
+    .button-service {
+        background-color: aqua;
+        margin: 20px;
+    }
+
+    .button-cursos {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+}
+
+
