@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+#toda-pagina {
+    background: rgba(202, 206, 206, 0.541);
+}
+
+.img-logo {
+    height: 19vh;
+    margin: 5vw;
+}
+
+header {
+    text-align: center;
+}
+
+nav {}
+
+main {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#img-matricula {
+    height: 20vh;
+    width: auto;
+}
+
+#section-1 {
+    height: 20vh;
+    margin-bottom: 30vh;
+}
+
+#section-2 {
+    height: 20vh;
+    margin-bottom: 50vh;
+}
+
+#final-pagina {
+    text-align: center;
+}
